@@ -1,0 +1,116 @@
+.backround-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.footer-contacts {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address,
+.footer-logo {
+  color: #ffffff;
+}
+
+.web,
+.footer-logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 9px;
+}
+
+.contact-mail {
+  margin-bottom: 9px;
+}
+
+.logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  list-style: none;
+}
+
+.menu-social {
+  margin-left: 70px;
+}
+
+.menu-socials-head {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.socials {
+  display: flex;
+}
+
+.contacts-social {
+  display: flex;
+  align-items: baseline;
+}
+
+.subscribe {
+  margin-left: auto;
+}
+
+.mail-subscribe {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.e-mail {
+  width: 358px;
+  height: 50px;
+}
+
+.icon-send {
+  fill: #fff;
+  margin-left: 10px;
+}
+
+.form {
+  display: flex;
+}
