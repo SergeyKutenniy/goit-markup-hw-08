@@ -46,7 +46,17 @@
   align-items: center;
   margin-bottom: 30px;
 
+  @media screen and(min-width: 480px) {
+    margin-left: 0;
+  }
+
   @media screen and(min-width: 768px) {
+    flex-basis: calc(100% / 2 - 15px);
+    margin-left: 30px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 0;
   }
 
   &::before {
@@ -60,9 +70,21 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+}
 
-  &:nth-child(4n) {
-    margin-right: 0;
-    margin-bottom: -30px;
+.list-item.astronaut {
+  margin-bottom: 0;
+}
+
+.list-item.antenna,
+.list-item.diagram {
+  @media screen and (min-width: 480px) {
+    margin-left: 0;
+  }
+}
+
+.list-item.diagram {
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
   }
 }
