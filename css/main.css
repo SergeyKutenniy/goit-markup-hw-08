@@ -488,8 +488,16 @@ img {
   display: block;
   margin: 0;
   padding: 0;
-  width: 170px;
   height: 92px;
+  flex-basis: calc(100% / 2 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .client-logo {
+    flex-basis: calc(100% / 3 - 30px);
+  }
 }
 
 .list .client-logo + .client-logo {
@@ -1038,7 +1046,41 @@ img {
 
 .clients {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.list-clients {
+  list-style: none;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+@media screen and (min-width: 480px) {
+  .list-clients {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list-clients {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list-clients {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
 /*# sourceMappingURL=main.css.map */
