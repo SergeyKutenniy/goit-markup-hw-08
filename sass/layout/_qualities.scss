@@ -47,11 +47,10 @@
   margin-bottom: 30px;
 
   @media screen and(min-width: 480px) {
-    margin-left: 0;
   }
 
   @media screen and(min-width: 768px) {
-    flex-basis: calc(100% / 2 - 15px);
+    flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;
   }
 
@@ -69,17 +68,6 @@
     background-color: #f5f4fa;
     background-repeat: no-repeat;
     background-position: center;
-  }
-}
-
-.list-item.astronaut {
-  margin-bottom: 0;
-}
-
-.list-item.antenna,
-.list-item.diagram {
-  @media screen and (min-width: 480px) {
-    margin-left: 0;
   }
 }
 

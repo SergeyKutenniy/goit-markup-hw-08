@@ -46,8 +46,8 @@ img {
   .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+    margin-left: -30px;
+    margin-bottom: -30px;
   }
 }
 
@@ -354,6 +354,7 @@ img {
 .description {
   padding-top: 30px;
   padding-bottom: 30px;
+  width: 100%;
 }
 
 .descr-flex-element {
@@ -393,18 +394,33 @@ img {
 }
 
 .secondary-title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .secondary-title {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+}
+
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .team-human {
@@ -429,16 +445,24 @@ img {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
-.card:nth-child(4n) {
-  margin-right: 0;
+@media screen and (min-width: 768px) {
+  .card {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-left: 30px;
+  }
 }
 
 .icon {
   display: block;
   fill: #fff;
+}
+
+.human-photo {
+  width: 100%;
+  height: auto;
 }
 
 .client {
@@ -794,15 +818,9 @@ img {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
-  .list-item {
-    margin-left: 0;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .list-item {
-    flex-basis: calc(100% / 2 - 15px);
+    flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;
   }
 }
@@ -825,17 +843,6 @@ img {
   background-position: center;
 }
 
-.list-item.astronaut {
-  margin-bottom: 0;
-}
-
-@media screen and (min-width: 480px) {
-  .list-item.antenna,
-  .list-item.diagram {
-    margin-left: 0;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .list-item.diagram {
     margin-left: 30px;
@@ -843,13 +850,22 @@ img {
 }
 
 .work {
-  padding-bottom: 94px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .work {
+    display: block;
+    padding-bottom: 94px;
+  }
 }
 
 .working-list {
   margin-right: 30px;
   position: relative;
-  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .working-list:nth-child(3n) {
