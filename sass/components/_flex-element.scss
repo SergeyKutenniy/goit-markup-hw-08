@@ -1,8 +1,7 @@
 .flex-element {
-  margin-right: 30px;
-  margin-bottom: 30px;
+  // margin-right: 30px;
+  // margin-bottom: 30px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 100%;
   align-items: center;
 
   @media screen and(min-width: 480px) {
@@ -10,7 +9,7 @@
 
   @media screen and(min-width: 768px) {
     flex-basis: calc(100% / 2 - 30px);
-    margin-left: 30px;
+    // margin-left: 30px;
   }
 
   @media screen and(min-width: 1200px) {
