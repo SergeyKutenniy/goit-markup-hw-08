@@ -13,6 +13,10 @@
   &:focus {
     fill: var(--accent-color);
   }
+
+  @media screen and(min-width: 768px) {
+    display: none;
+  }
 }
 
 .mob-menu {
@@ -25,6 +29,7 @@
   padding-top: 48px;
   padding-bottom: 48px;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
 
   &.is-hidden {
     pointer-events: none;

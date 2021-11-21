@@ -23,8 +23,14 @@
 }
 
 .project-filter {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 1px solid #ececec;
+
+  @media screen and(min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .button-filter {
@@ -71,7 +77,12 @@
 
 .btn-filter {
   margin-right: 8px;
+  margin-bottom: 15px;
   &:nth-child(5n) {
     margin-right: 0;
   }
+}
+
+.mob-btn-filter {
+  margin-bottom: -15px;
 }

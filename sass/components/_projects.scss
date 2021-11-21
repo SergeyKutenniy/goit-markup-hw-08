@@ -1,12 +1,17 @@
 .filter {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-bottom: 40px;
+
+  @media screen and(min-width: 480px) {
+  }
 }
 
 .flex-list {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .section-title {
@@ -24,4 +29,9 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+.photo-project {
+  width: 100%;
+  height: auto;
 }
