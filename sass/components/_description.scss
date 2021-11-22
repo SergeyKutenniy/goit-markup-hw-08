@@ -13,3 +13,9 @@
   padding-left: 24px;
   padding-right: 24px;
 }
+
+.descr-flex-element__big {
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
+    padding-bottom: 56px;
+  }
+}

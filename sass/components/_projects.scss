@@ -2,20 +2,27 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  margin-bottom: 40px;
 
-  @media screen and(min-width: 480px) {
+  @media screen and(max-width: 767px) {
+    margin-bottom: 40px;
   }
 
   @media screen and(min-width: 768px) {
     justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 50px;
   }
 }
 
 .flex-list {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  @media screen and(max-width: 767px) {
+    width: 100%;
+  }
 }
 
 .section-title {
