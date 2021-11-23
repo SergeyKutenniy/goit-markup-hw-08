@@ -636,6 +636,13 @@ img {
   margin-left: 12px;
 }
 
+@media screen and (max-width: 767px) {
+  .button-primary.button-subscribe {
+    display: inline-flex;
+    margin-left: 0;
+  }
+}
+
 .button-form {
   align-self: center;
   width: 200px;
@@ -1137,6 +1144,7 @@ img {
 }
 
 .backround-footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -1147,6 +1155,12 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts-footer {
+    margin-bottom: 60px;
+  }
 }
 
 .address,
@@ -1174,8 +1188,20 @@ img {
   margin-bottom: 9px;
 }
 
+@media screen and (max-width: 767px) {
+  .address {
+    margin-bottom: 8px;
+  }
+}
+
 .contact-mail {
   margin-bottom: 9px;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-mail {
+    margin-bottom: 8px;
+  }
 }
 
 .logo {
@@ -1189,6 +1215,13 @@ img {
 
 .menu-social {
   margin-left: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-social {
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
 }
 
 .menu-socials-head {
@@ -1211,6 +1244,13 @@ img {
   align-items: baseline;
 }
 
+@media screen and (max-width: 767px) {
+  .main-footer {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
 .socials {
   display: flex;
 }
@@ -1218,6 +1258,13 @@ img {
 .contacts-social {
   display: flex;
   align-items: baseline;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts-social {
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 .subscribe {
@@ -1238,6 +1285,12 @@ img {
   color: #fff;
 }
 
+@media screen and (max-width: 767px) {
+  .mail-subscribe {
+    margin-bottom: 20px;
+  }
+}
+
 .e-mail {
   width: 358px;
   height: 50px;
@@ -1250,6 +1303,13 @@ img {
 
 .form {
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    display: block;
+    text-align: center;
+  }
 }
 
 .clients {

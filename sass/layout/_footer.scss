@@ -1,4 +1,5 @@
 .backround-footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -9,6 +10,12 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.contacts-footer {
+  @media screen and(max-width: 767px) {
+    margin-bottom: 60px;
+  }
 }
 
 .address,
@@ -35,10 +42,18 @@
   letter-spacing: 0.03em;
 
   margin-bottom: 9px;
+
+  @media screen and(max-width: 767px) {
+    margin-bottom: 8px;
+  }
 }
 
 .contact-mail {
   margin-bottom: 9px;
+
+  @media screen and(max-width: 767px) {
+    margin-bottom: 8px;
+  }
 }
 
 .logo {
@@ -52,6 +67,11 @@
 
 .menu-social {
   margin-left: 70px;
+
+  @media screen and(max-width: 767px) {
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
 }
 
 .menu-socials-head {
@@ -72,6 +92,11 @@
 .main-footer {
   display: flex;
   align-items: baseline;
+
+  @media screen and(max-width: 767px) {
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 .socials {
@@ -81,6 +106,11 @@
 .contacts-social {
   display: flex;
   align-items: baseline;
+
+  @media screen and(max-width: 767px) {
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 .subscribe {
@@ -99,6 +129,10 @@
   padding-top: 15px;
   padding-bottom: 15px;
   color: #fff;
+
+  @media screen and(max-width: 767px) {
+    margin-bottom: 20px;
+  }
 }
 
 .e-mail {
@@ -113,4 +147,9 @@
 
 .form {
   display: flex;
+
+  @media screen and(max-width: 767px) {
+    display: block;
+    text-align: center;
+  }
 }
