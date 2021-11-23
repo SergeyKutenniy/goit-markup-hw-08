@@ -636,7 +636,7 @@ img {
   margin-left: 12px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .button-primary.button-subscribe {
     display: inline-flex;
     margin-left: 0;
@@ -1217,10 +1217,16 @@ img {
   margin-left: 70px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .menu-social {
     margin-left: 0;
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-social {
+    margin-bottom: 0;
   }
 }
 
@@ -1244,7 +1250,7 @@ img {
   align-items: baseline;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .main-footer {
     display: inline-block;
     text-align: center;
@@ -1267,8 +1273,28 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .contacts-social {
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts-social {
+    margin-bottom: 0;
+  }
+}
+
 .subscribe {
   margin-left: auto;
+}
+
+@media screen and (max-width: 1199px) {
+  .subscribe {
+    max-width: 450px;
+    margin-right: auto;
+  }
 }
 
 .mail-subscribe {
@@ -1285,7 +1311,7 @@ img {
   color: #fff;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .mail-subscribe {
     margin-bottom: 20px;
   }
@@ -1305,7 +1331,7 @@ img {
   display: flex;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .form {
     display: block;
     text-align: center;

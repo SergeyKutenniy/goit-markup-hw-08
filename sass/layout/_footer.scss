@@ -68,9 +68,13 @@
 .menu-social {
   margin-left: 70px;
 
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 1199px) {
     margin-left: 0;
     margin-bottom: 60px;
+  }
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 0;
   }
 }
 
@@ -93,9 +97,12 @@
   display: flex;
   align-items: baseline;
 
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 1199px) {
     display: inline-block;
     text-align: center;
+  }
+
+  @media screen and(min-width: 768px) {
   }
 }
 
@@ -111,10 +118,24 @@
     display: inline-block;
     text-align: center;
   }
+
+  @media screen and(min-width: 768px) {
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 
 .subscribe {
   margin-left: auto;
+
+  @media screen and(max-width: 1199px) {
+    max-width: 450px;
+    margin-right: auto;
+  }
 }
 
 .mail-subscribe {
@@ -130,7 +151,7 @@
   padding-bottom: 15px;
   color: #fff;
 
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 1199px) {
     margin-bottom: 20px;
   }
 }
@@ -148,7 +169,7 @@
 .form {
   display: flex;
 
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 1199px) {
     display: block;
     text-align: center;
   }
