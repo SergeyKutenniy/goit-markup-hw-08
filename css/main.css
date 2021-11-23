@@ -170,6 +170,13 @@ img {
   padding: 40px;
 }
 
+@media screen and (max-width: 1199px) {
+  .modal {
+    max-width: 450px;
+    height: 609px;
+  }
+}
+
 .modal-close {
   display: flex;
   position: fixed;
@@ -288,9 +295,15 @@ img {
   justify-content: center;
 }
 
+@media screen and (max-width: 1199px) {
+  .form-checkbox-label {
+    font-size: 12px;
+  }
+}
+
 .form-checkbox-label::before {
   display: block;
-  content: '';
+  content: "";
   width: 16px;
   height: 15px;
   border: 1px solid #212121;

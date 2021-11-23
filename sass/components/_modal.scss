@@ -11,6 +11,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
+
+  @media screen and(max-width: 1199px) {
+    max-width: 450px;
+    height: 609px;
+  }
 }
 
 .modal-close {
@@ -132,9 +137,13 @@
   align-self: center;
   justify-content: center;
 
+  @media screen and(max-width: 1199px) {
+    font-size: 12px;
+  }
+
   &::before {
     display: block;
-    content: '';
+    content: "";
     width: 16px;
     height: 15px;
     border: 1px solid #212121;
