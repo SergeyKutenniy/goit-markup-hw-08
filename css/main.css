@@ -57,6 +57,12 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .mod-menu {
+    flex-direction: column;
+  }
+}
+
 .list-qualities {
   list-style: none;
 }
@@ -993,7 +999,7 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/hero.webp), url(../../images/alt-bg.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(././images/hero/hero.webp), url(././images/alt-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1439,9 +1445,14 @@ img {
   fill: var(--accent-color);
 }
 
-@media screen and (min-width: 768px) {
-  .menu-open,
+@media screen and (min-width: 1199px) {
   .menu-close {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-open {
     display: none;
   }
 }
@@ -1499,7 +1510,12 @@ img {
 }
 
 .mob-contacts-list {
+  flex-direction: column;
   margin-bottom: 64px;
+}
+
+.mob-menu .mob-menu-list {
+  flex-direction: column;
 }
 
 .mob-contacts-item:not(:last-child) {

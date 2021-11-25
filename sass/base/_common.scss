@@ -36,6 +36,12 @@ img {
   }
 }
 
+.mod-menu {
+  @media screen and(min-width: 768px) {
+    flex-direction: column;
+  }
+}
+
 .list-qualities {
   list-style: none;
 

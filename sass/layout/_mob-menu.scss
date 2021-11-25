@@ -13,7 +13,15 @@
   &:focus {
     fill: var(--accent-color);
   }
+}
 
+.menu-close {
+  @media screen and(min-width: 1199px) {
+    display: none;
+  }
+}
+
+.menu-open {
   @media screen and(min-width: 768px) {
     display: none;
   }
@@ -72,7 +80,12 @@
 }
 
 .mob-contacts-list {
+  flex-direction: column;
   margin-bottom: 64px;
+}
+
+.mob-menu .mob-menu-list {
+  flex-direction: column;
 }
 
 .mob-contacts-item {
