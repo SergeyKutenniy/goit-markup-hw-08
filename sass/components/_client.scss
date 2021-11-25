@@ -11,9 +11,9 @@
 
   &:hover,
   &:focus {
-    border-color: #2196f3;
+    border-color: var(--accent-color);
     .symbol {
-      fill: #2196f3;
+      fill: var(--accent-color);
     }
   }
 }
